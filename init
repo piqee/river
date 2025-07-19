@@ -4,6 +4,9 @@
 riverctl input keyboard-1044-32786-GIGABYTE_USB-HID_Keyboard events enabled
 riverctl keyboard-layout -options grp:alt_shift_toggle us,ru
 
+#natural-scroll
+riverctl input pointer-1267-12385-ELAN0A04:00_04F3:3061_Touchpad natural-scroll enabled
+
 #Touchpad
 riverctl input pointer-1267-12385-ELAN0A04:00_04F3:3061_Touchpad events enabled
 #riverctl input pointer-1267-12385-ELAN0A04:00_04F3:3061_Touchpad click-method clickfinger
