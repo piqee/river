@@ -4,6 +4,11 @@
 riverctl input keyboard-1044-32786-GIGABYTE_USB-HID_Keyboard events enabled
 riverctl keyboard-layout -options grp:alt_shift_toggle us,ru
 
+#Touchpad
+riverctl input pointer-1267-12385-ELAN0A04:00_04F3:3061_Touchpad events enabled
+#riverctl input pointer-1267-12385-ELAN0A04:00_04F3:3061_Touchpad click-method clickfinger
+riverctl input pointer-1267-12385-ELAN0A04:00_04F3:3061_Touchpad tap enabled
+
 #Super+Shift+Return to start an instance of foot
 riverctl map normal Super+Shift Return spawn foot
 
